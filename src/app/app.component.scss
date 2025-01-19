@@ -1,20 +1,6 @@
 @media only screen and (max-width: 760px) {
  
-  .bottom-box{
-    flex-direction: column;
-    justify-items: center;
-    align-items: center;
-  }
-
-  .lieu{
-    flex-wrap: wrap;
-  }
-
-  #main{
-    font-size: 2em !important;
-    font-weight: 900;
-    font-family: fantasy;
-  }
+  
   .container{
     height: 100vh !important;
     display: flex !important;
@@ -22,56 +8,24 @@
     overflow-y: auto !important;
     align-items: center !important;
     padding: 20px 0 !important;
+    justify-content: center;
+  align-items: center;
+
   }
-  .left{
+  .left, .right{
     
     all: unset !important;
     display: none !important;
-    width: 80% !important;
-    height: auto !important;
-    // display: flex !important;
-    flex-direction: column !important;
-    justify-self: center;
-    align-self: center;
-    overflow: hidden !important;
-    background-color: rgba(21, 20, 20, 0.379) !important;
-    border-radius: 20px !important;
-    z-index: 1 !important;
-    position: relative !important;
-    
 
   }
-  
-  .left::before{
-    all: unset !important;
-    content: "" !important;
-    height: 100% !important;
-    width: 100% !important;
-    background-color: rgba(252, 252, 252, 0.521) !important;
-    position: absolute !important;
-    border-radius: 20px !important;
-    z-index: -1 !important;
-    overflow: hidden !important ;
 
+  .mobile-container{
+    display: flex !important;
+  }
 
-  }
-  .title-container{
-    height: 10vh !important;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position:  relative !important;
-    color: white;
-  }
  
-  .title{
-    transform: translateY(10px);
-  }
-  .curved-line{
-    position: relative !important;
-    
-   
-  }
+  
+
 
 
 
@@ -83,7 +37,9 @@
 *{
   transition: all .1s ease-in-out;
 }
-
+.mobile-container{
+  display: none;
+}
 .container {
   height: 100%;
   width: 100%;
@@ -92,6 +48,7 @@
   display: grid;
   grid-template-columns: minmax(15vw, 20vw) 1fr;
   overflow: hidden;
+  
 
 
   .left {

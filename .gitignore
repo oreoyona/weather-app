@@ -6,6 +6,9 @@
 /out-tsc
 /bazel-out
 
+# key file
+
+
 # Node
 /node_modules
 npm-debug.log
@@ -40,3 +43,4 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+/src/app/keys.ts

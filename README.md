@@ -1,5 +1,6 @@
 # WeatherApp
 ![My Image](project-img.png)
+![My Image](mobile.png)
 This is a simple weather application built using Angular that fetches real-time weather data from a weather API and displays it to the user.
 **Key Features:**
 
@@ -12,6 +13,7 @@ This is a simple weather application built using Angular that fetches real-time 
 
 * **Angular:** A powerful JavaScript framework for building dynamic and interactive web applications.
 * **OpenWeatherMap API** the weather service provider.
+* **Unsplash API** the image service provider.
 
 **How to Run the App:**
 
