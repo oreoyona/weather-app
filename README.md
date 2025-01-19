@@ -16,6 +16,17 @@ This is a simple weather application built using Angular that fetches real-time 
 * **Angular:** A powerful JavaScript framework for building dynamic and interactive web applications.
 * **OpenWeatherMap API** the weather service provider.
 * **Unsplash API** the image service provider.
+* **RxJS**: The application utilizes RxJS (Reactive Extensions for JavaScript) for handling asynchronous data, such as the Observable and Subscription types, showcasing my knowledge of reactive programming concepts.
+
+* **HTTP Client**: The application uses the HttpClient module from Angular to make HTTP requests to the weather API, demonstrating my ability to work with HTTP clients and APIs.
+
+* **CSV Data Parsing**: The service includes functionality to parse a CSV file containing city data, demonstrating my ability to work with structured data and perform data processing tasks.
+
+* **Color Manipulation**: The isColorDark() method shows my ability to perform color-related calculations and determinations, which can be useful for developing visually appealing user interfaces.
+
+* **Caching and Optimization**: The service includes optimizations such as caching the CSV data and using efficient RxJS operators, showcasing my attention to performance and best practices.
+
+* **Error Handling**: The service includes robust error handling, with the use of a BehaviorSubject to manage and communicate errors, demonstrating my focus on providing a reliable and user-friendly experience.
 
 **How to Run the App:**
 
@@ -30,6 +41,3 @@ This is a simple weather application built using Angular that fetches real-time 
     ```bash
     ng serve
 
-
-**For developpers:**
-This is a simple weather application built using Angular that fetches real-time weather data from a weather API and displays it to the user. You can try to add some functionnalities to it like a search-based service to provide meteo data for other cities. Have FUN
