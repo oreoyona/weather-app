@@ -5,12 +5,16 @@ This is a simple weather application built using Angular that fetches real-time 
 
 * **User-friendly interface:** Clean and intuitive design for easy navigation.
 * **Real-time weather data:** Fetches current weather information including temperature, humidity, wind speed, and weather conditions.
-* **City search:** Allows users to search for weather information by city name.
+
 * **Adaptative theming** The theme of the app changes according to the weather.
 
+**Technologies Used:**
+
 * **Angular:** A powerful JavaScript framework for building dynamic and interactive web applications.
-* **[OpenWeatherMap API]** the weather service provider
+* **OpenWeatherMap API** the weather service provider.
+
 **How to Run the App:**
+
 1. **Clone the repository:**
    ```bash
    git clone <repository_url>
