@@ -6,13 +6,17 @@
     align-items: center;
   }
 
+  .lieu{
+    flex-wrap: wrap;
+  }
+
   #main{
     font-size: 2em !important;
     font-weight: 900;
     font-family: fantasy;
   }
   .container{
-    height: auto !important;
+    height: 100vh !important;
     display: flex !important;
     flex-direction: column;
     overflow-y: auto !important;
