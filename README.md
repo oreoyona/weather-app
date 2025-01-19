@@ -1,1 +1,26 @@
 # WeatherApp
+![My Image](project-img.png)
+This is a simple weather application built using Angular that fetches real-time weather data from a weather API and displays it to the user.
+**Key Features:**
+
+* **User-friendly interface:** Clean and intuitive design for easy navigation.
+* **Real-time weather data:** Fetches current weather information including temperature, humidity, wind speed, and weather conditions.
+* **City search:** Allows users to search for weather information by city name.
+* **Adaptative theming** The theme of the app changes according to the weather.
+
+* **Angular:** A powerful JavaScript framework for building dynamic and interactive web applications.
+* **[OpenWeatherMap API]** the weather service provider
+**How to Run the App:**
+1. **Clone the repository:**
+   ```bash
+   git clone <repository_url>
+2. **Install the dependecies**
+    ```bash 
+    cd weather-app
+    npm install
+3. **Start the developpment**
+    ```ng serve
+
+
+**For developpers:**
+This is a simple weather application built using Angular that fetches real-time weather data from a weather API and displays it to the user. You can try to add some functionnalities to it like a search-based service to provide meteo data for other cities. Have FUN
