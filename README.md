@@ -4,11 +4,11 @@
   <img src="mobile.png" alt="My Image" width="auto" height="200" />
 </div>
 This is a simple weather application built using Angular that fetches real-time weather data from a weather API and displays it to the user.
+
 **Key Features:**
 
 * **User-friendly interface:** Clean and intuitive design for easy navigation.
 * **Real-time weather data:** Fetches current weather information including temperature, humidity, wind speed, and weather conditions.
-
 * **Adaptative theming** The theme of the app changes according to the weather.
 
 **Technologies Used:**
