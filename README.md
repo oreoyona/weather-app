@@ -1,6 +1,8 @@
 # WeatherApp
-![My Image](project-img.png)
-![My Image](mobile.png)
+<p align="center">
+  <img src="project-img.png" alt="My Image" width="200" height="200" />
+  <img src="mobile.png" alt="My Image" width="200" height="200" />
+</p>
 This is a simple weather application built using Angular that fetches real-time weather data from a weather API and displays it to the user.
 **Key Features:**
 
