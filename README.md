@@ -1,5 +1,17 @@
 # WeatherApp
 
+# TASKS
+
+1. Ajouter un systeme de theme au site afin qu'il s'adapte au changement du fond d'ecran(`state:COMPLETED 100%`)
+1. bis: RENDRE LE SITE RESPONSIVE(State: STARTED: 10%)
+2. Ajouter un systeme de recherche(state: NOT STARTED)
+3. Ajouter un systeme de memoire pour memoriser les dernieres recherches(state: NOT STARTED)
+/////////////////////////////////////////////////////////////////////////////////////////
+ADVANCED
+/////////////////////////////////////////////////////////////////////////////////////////
+4. Transformer l'application en PWA(state: NOT STARTED)
+5. Ecrire une version flutter de l'application(state: NOT STARTED)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.11.
 
 ## Development server
