@@ -1,7 +1,8 @@
 import { inject, Injectable } from '@angular/core';
-import { BehaviorSubject, map, Observable, of, Subscription } from 'rxjs';
+import { BehaviorSubject, map, Observable, of} from 'rxjs';
 import { HttpClient } from '@angular/common/http';
-import { Photo, CityData } from './interfaces';
+import { CityData } from './interfaces';
+import { unsplashAccessKey } from './keys';
 
 @Injectable({
   providedIn: 'root'
@@ -17,7 +18,7 @@ export class GeolocationService {
   }
 
   getPhotos(motCle: string): Observable<any> {
-    const url = `https://api.unsplash.com/search/photos?query=${motCle}&client_id=g495q1LVhrNwMJyKHAe53qspT0imbuSc7jN3DoT3aus`;
+    const url = `https://api.unsplash.com/search/photos?query=${motCle}&client_id=${unsplashAccessKey}`;
     return this.http.get(url);
   }
 
