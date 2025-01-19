@@ -37,6 +37,8 @@ This is a simple weather application built using Angular that fetches real-time 
     ```bash 
     cd weather-app
     npm install
+
+2. bis **Get your Open Weather and Unsplash APIs and use them in keys.ts file**
 3. **Start the developpment**
     ```bash
     ng serve
