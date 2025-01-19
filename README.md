@@ -23,7 +23,8 @@ This is a simple weather application built using Angular that fetches real-time 
     cd weather-app
     npm install
 3. **Start the developpment**
-    ```ng serve
+    ```bash
+    ng serve
 
 
 **For developpers:**
